@@ -7,10 +7,7 @@
     <title>Form</title>
 </head>
     <body>
-        <div>
             <h1> Formulário Miau </h1>
-            <br>
-        </div>
         <form>
             <div>
                 <label> Você tem um gato? </label>
@@ -34,17 +31,29 @@
                     <label> Conte um pouco sobre o seu gato. </label>
                     <textarea name="experiencia"></textarea>
                 </div>
+                <br>
                 <div>
-                    <label> O seu gatinho gosta de que? </label>
-                    <label>
-                        <input type="checkbox" name="gostos"> Dormir
-                        <input typ
-                    </label>
-                </label>
+                    <label> O seu gatinho gosta do que? </label>
+                    <input type="checkbox" name="gostos" value="Dormir"> Dormir 
+                    <input type="checkbox" name="gostos" value="Comer"> Comer ração
+                    <input type="checkbox" name="gostos" value="Sachê"> Sachê 
+                    <br>
+                    <input type="checkbox" name="gostos" value="Bagunça"> Fazer bagunça   
+                    <input type="checkbox" name="gostos" value="Carinho"> Carinho
+                    <input type="checkbox" name="gostos" value="Aventuras"> Se aventurar
                 </div>
             </fieldset>
             <br>
-            <button type="submit" onsubmit=""> Enviar </button>
+            <label> O quão fofo é o seu gato? </label>
+            <select name="fofura"> 
+                <option value="Muito"> Muito fofo </option>
+                <option value="Pouco"> Pouco fofo </option>
+                <option value="Explosão"> Explosão de fofura </option>
+                <option value="Normal"> Normal ué </option>
+                <option selected disabled value=""> Selecione </option>
+            </select>
+            <br> 
+            <button type="submit"> Enviar </button>
         </form>
     </body>
 </html>
