@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+    <body>
+        <div>
+            <h1> Formulário Miau </h1>
+            <br>
+        </div>
+        <form>
+            <div>
+                <label> Você tem um gato? </label>
+                <label> 
+                    <input type="radio" name="pergunta" value="Sim" checked> Sim
+                </label>
+                <label>
+                    <input type="radio" name="pergunta" value="Não"> Não
+                </label>
+            </div>
+            <div>
+                <label> Qual o nome do seu gato? </label>
+                <label>
+                    <input type="text" name="nome" placeholder="Digite aqui o nome">
+                </label>
+            </div>
+            <br>
+            <div>
+                <label> Conte um pouco sobre o seu gato. </label>
+                <textarea name="experiencia"></textarea>
+            </div>
+            <br>
+            <button type="submit" onsubmit=""> Enviar </button>
+        </form>
+    </body>
+</html>
