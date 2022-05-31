@@ -7,8 +7,8 @@ body{
     margin-left: 5%;
     margin-top: 5%;
     margin-right: 5%;
-    background-color: #fff8e3;
-    color: #0D0D0D;
+    background-color: #4bccff;
+    color: #ffffff;
 }
 input,select, button{
     border-radius: 5px;
@@ -17,12 +17,10 @@ fieldset{
     border-radius: 5px;
     margin-top: 10px;
     padding: 10px;
+    background-color: #c8f0ff;
+    color: black;
 }
 button, .bloco{
     margin-top: 10px;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
-}
-img {
-    height:50%;
-    width: 50%;
 }
