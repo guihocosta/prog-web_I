@@ -1,6 +1,6 @@
 body {
     font-family: montserrat, sans-serif;
-    margin: 50px;
+    margin: 3%;
 }
 h1, h2, h3, h4, h5 { 
     background-color: #e4e4e4;
@@ -8,8 +8,8 @@ h1, h2, h3, h4, h5 {
     margin: auto;
 }
 img {
-width: 500;
-height:600;
+width: 30%;
+height:60%;
 margin-right:40px;
 }
 a {
