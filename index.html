@@ -8,7 +8,7 @@
         rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" 
         crossorigin="anonymous">
     </head>
-    <header class="container-fluid">
+    <header class="container-fluid" id="home">
         <div class="d-flex mb-4 shadow p-3 mb-5 rounded">
             <div class="d-flex mb-md-0 me-auto text-dark">
                 <p class="fs-3 mb-0"><b>Guilherme</b> Costa</p>
@@ -21,7 +21,7 @@
     </header>
     <body class="bg-light">
         <div class="container mt-2">
-            <div class="text-break" id="home"> 
+            <div class="text-break"> 
                 <h1>Seja bem-vindo!</h1>
                 <p>Este é um dos primeiros sites que faço com Boostrap, então... <b> Não me julgue</b></p>
             </div>
@@ -55,9 +55,42 @@
                 </div>
             </div>
         </div>
+        <div class="container py-5">
+            <div class="card" style="max-width: 800px;">
+                <div class="card-header">
+                    Criador do Site
+                </div>
+                <div class="row"> 
+                    <div class="col-6 col-md-3">
+                        <img src="images/Guilherme.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-6 col-md-9"> 
+                        <div class="card-body">
+                        <h5 class="card-title">Guilherme Costa</h5>
+                        <p class="card-text">Nascido em 2006, Guilherme é estudante do Instituto Federal do 
+                            Espírito Santo e aluno do professor Francisco de Assis Boldt, uma grande inspiração 
+                            para Guilherme. Por ser estudante do IFES, Guilherme não possui tempo livre e 
+                            depende do seu gato para manter sua saúde mental intacta, se é isso que isso existe.
+                        </p>
+                        <a href="https://github.com/guihocosta" class="btn btn-dark">Github</a>
+                        <a href="https://www.instagram.com/guilhermecostadsgn" class="btn btn-dark">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer text-muted">
+                Quero uma boa nota hein professor
+            </div>
+    </div>  
+        </div>
         <footer class="container py-5">
-            <div class="d-flex justify-content-md-between justify-content-center py-4 my-4 border-top">
-                <p>&copy; Só para deixar mais bonitinho mesmo ;p </p>
+            <div class="row"> 
+                <div class="col d-flex justify-content-md-between justify-content-center py-4 my-4 border-top">
+                    <p>&copy; Só para deixar mais bonitinho mesmo ;p </p>
+                    <div class="col d-flex justify-content-md-end justify-content-center"> 
+                        <a href="#home" class="btn btn-primary mx-1">Home</a>
+                        <a href="#links" class="btn btn-secondary">Links</a>
+                    </div>
+                </div>
             </div>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
