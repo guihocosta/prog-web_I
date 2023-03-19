@@ -1,2 +1,2 @@
 # progweb-1
-Atividade de PROG WEB I
+Este repositório foi criado para as atividades de PROG WEB I, sobre HTML, CSS e BOOTSTRAP 5
